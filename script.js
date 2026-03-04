@@ -1,16 +1,13 @@
-// PROFILE POPUP
-const profilePic = document.getElementById("profilePic");
-const profilePopup = document.getElementById("profilePopup");
+const profileIcon=document.getElementById("profileIcon");
+const popup=document.getElementById("profilePopup");
 
-profilePic.addEventListener("click", () => {
-profilePopup.style.display =
-profilePopup.style.display === "block" ? "none" : "block";
-});
+profileIcon.addEventListener("click",()=>{
 
-window.addEventListener("click", function(e) {
-if (!profilePic.contains(e.target) && !profilePopup.contains(e.target)) {
-profilePopup.style.display = "none";
-}
+popup.style.display=
+popup.style.display==="block"
+?"none"
+:"block";
+
 });
 
 const grid=document.getElementById("postGrid");
