@@ -48,4 +48,4 @@ drops[i]++;
 }
 }
 
-setInterval(draw, 90);
+setInterval(draw, 110);
