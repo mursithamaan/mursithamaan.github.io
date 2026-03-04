@@ -21,7 +21,7 @@ const ctx = canvas.getContext("2d");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const text = "Amaan's Workspace 0123456789";
+const text = "AMAAN'S WORKSPACE 0123456789";
 const fontSize = 14;
 const columns = canvas.width / fontSize;
 const drops = [];
@@ -48,4 +48,4 @@ drops[i]++;
 }
 }
 
-setInterval(draw, 50);
+setInterval(draw, 90);
