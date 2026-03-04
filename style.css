@@ -79,34 +79,60 @@ background:white;
 color:black;
 
 }
+
 .profile{
 position:relative;
+justify-self:end;
 }
 
-.profile img{
+#profileIcon{
+
 width:40px;
 height:40px;
+
 border-radius:50%;
+
 cursor:pointer;
+
+object-fit:cover;
+
 }
 
+/* popup */
+
 .profile-popup{
+
 position:absolute;
+
 right:0;
-top:60px;
-background:rgba(255,255,255,0.07);
-backdrop-filter:blur(25px);
+
+top:55px;
+
+background:rgba(30,30,35,0.85);
+
+backdrop-filter:blur(20px);
+
+border-radius:15px;
+
 padding:20px;
-border-radius:20px;
+
+width:200px;
+
 display:none;
+
 text-align:center;
+
 }
 
 .profile-popup img{
-width:60px;
-height:60px;
+
+width:70px;
+height:70px;
+
 border-radius:50%;
+
 margin-bottom:10px;
+
 }
 
 .grid{
